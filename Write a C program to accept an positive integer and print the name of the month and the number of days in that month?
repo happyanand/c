@@ -1,0 +1,45 @@
+#include <stdio.h>
+int main() {
+    int n;
+    scanf("%d",&n);
+    switch(n)
+    {
+        case 1:
+        printf("JAN HAS 31 DAYS");
+        break;
+        case 2:
+        printf("FEB HAS 28 DAYS");
+        break;
+        case 3:
+        printf("MAR HAS 31 DAYS");
+        break;
+        case 4:
+        printf("ARP HAS 30 DAYS");
+        break;
+        case 5:
+        printf("MAY HAS 31 DAYS");
+        break;
+        case 6:
+        printf("JUN HAS 30 DAYS");
+        break;
+        case 7:
+        printf("JUL HAS 31 DAYS");
+        break;
+        case 8:
+        printf("AUG HAS 31 DAYS");
+        break;    
+        case 9:
+        printf("SEP HAS 30 DAYS");
+        break;
+        case 10:
+        printf("OCT HAS 31 DAYS");
+        break;
+        case 11:
+        printf("NOV HAS 30 DAYS");
+        break;
+        case 12:
+        printf("DEC HAS 31 DAYS");
+        break;
+    }
+	return 0;
+}
