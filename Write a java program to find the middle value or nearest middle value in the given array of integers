@@ -1,0 +1,9 @@
+a=list(map(int,input().split()))
+mi=min(a)
+ma=max(a)
+b=(ma+mi)/2
+l=[]
+for i in range(0,len(a)):
+    l.append(abs(b-a[i]))
+l1=l.index(min(l))
+print(a[l1])
