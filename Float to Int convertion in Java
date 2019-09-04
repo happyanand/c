@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class A
+{
+    public static void main(String args[])
+    {
+        Scanner A=new Scanner(System.in);
+        float n=A.nextFloat();
+        System.out.print((int)n);
+    }
+}
