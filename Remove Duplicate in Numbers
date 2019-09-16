@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include <string.h>
+int main() 
+{
+    int n,i,j,k;
+    scanf("%d",&n);
+    int a[n];
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        for(j=i+1;j<n;j++)
+        {
+            if(a[i]==a[j])
+              a[j]=-1;
+        }
+            if(a[i]!=-1)
+        printf("%d ",a[i]);
+    }
+}
+
+
+
+
+Sample Input 0
+
+5
+12 45 45 87 95
+Sample Output 0
+
+12 45 87 95 
+Explanation 0
+
+The first line denotes the length of the array. Here, length of the array is 5.
+
+the second line contains the array elements, the array elements are 12, 45, 45, 87, 95.
+
+here 45 present two times so print the element once,
+
+and all the other elements are present only once so print it as usual.
+
+Sample Input 1
+
+7
+1 2 3 4 5 7 1
+Sample Output 1
+
+1 2 3 4 5 7 
+Explanation 1
+
+Here it contain two "1", one "2", one "3", one "4", one "5" and one "7". So print 1 for one time and the remaining elements as usual.
