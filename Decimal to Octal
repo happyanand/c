@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    long decimal;
+    int rem;
+    long octal=0, i=1;
+    scanf("%ld",&decimal);
+    while(decimal!=0)
+    {
+        rem=decimal%8;
+        octal=octal+(rem*i);
+        decimal=decimal/8;
+        i=i*10;
+    }
+    printf("%ld",octal);
+   
+    return 0;
+}  
