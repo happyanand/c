@@ -1,0 +1,48 @@
+#include<stdio.h>
+int main() 
+{
+   int a,b,i=0;
+   scanf("%d",&a);
+   for(i=1;i<=a;i++)
+    {
+    if(a%i==0)
+      {
+        b++;
+      }
+    }
+   if(b==2)
+    {
+      printf("Yes");
+    }
+   else
+    {
+      printf("No");
+    }
+return 0;
+}
+
+
+
+Input Format
+
+Number N
+
+Constraints
+
+0 < N < 10^10
+
+Output Format
+
+Yes or No
+
+Sample Input
+
+7
+
+Sample Output
+
+Yes
+
+Explanation
+
+Prime or Not
