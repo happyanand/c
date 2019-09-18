@@ -1,0 +1,27 @@
+#include <stdio.h>
+long reverse(long);
+int main() 
+{
+   long l,rev;   
+   scanf("%ld",&l); 
+   rev=reverse(l);
+   printf("%ld\n",rev);
+    return 0;
+}
+long reverse(long l) 
+{
+   static long 
+    rev=0;   
+   if (l==0)
+      return 0;   
+   rev=rev*10;
+   rev=rev+l%10;
+   reverse(l/10);
+   return rev;
+}
+
+
+I/P:
+1003
+O/P:
+3001
