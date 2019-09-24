@@ -19,3 +19,21 @@ I/P:
 1 2 3 4
 O/P:
 1 2 3 4
+
+
+
+
+#include <stdio.h>
+int main() 
+{
+    int a=10;
+    int *b=&a;
+    int **c=&b;
+    printf("A=%d\nB=%d\nC=%d",a,*b,**c);
+    return 0;
+}
+
+O/P:
+A=10
+B=10
+C=10
