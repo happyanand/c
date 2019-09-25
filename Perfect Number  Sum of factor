@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main() 
+{
+    int n,i,sum=0;
+    scanf("%d",&n);
+    for(i=1;i<n;i++)
+    {
+        if(n%i==0)
+        {
+            sum=sum+i;
+        }
+    }
+    if(n==sum)
+        printf("Perfect Number");
+	else
+	    printf("Not a Perfect Number");
+	return 0;
+}
+
+
+I/P:
+6
+O/P:
+Perfect Number
+
+Explanation:
+1+2+3=6
+6/1==0
+6/2==0
+6/3==0
+6/4!=0
