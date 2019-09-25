@@ -1,0 +1,23 @@
+#include <stdio.h>
+struct student
+{
+    int id;
+    char *name;
+    int m1,m2;
+};
+int main() 
+{
+    struct student s;
+    s.id=06;
+    s.name="ANNADBALAGIARUN";
+    s.m1=90;
+    s.m2=80;
+    printf("%d \n %s \n %d",s.id,s.name,(s.m1+s.m2));
+	return 0;
+}
+
+
+O/P:
+6 
+ ANNADBALAGIARUN 
+ 170
