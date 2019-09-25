@@ -1,0 +1,17 @@
+#define a 10
+#define check (a>5 && a<15)
+#define Pass printf("Pass");
+void main()
+{
+    if check
+    {
+        Pass;
+    }
+    else
+    {
+        printf("RA");
+    }
+}
+
+O/P:
+Pass
