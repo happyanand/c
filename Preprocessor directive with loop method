@@ -1,0 +1,16 @@
+#define loop(a)\
+{\
+for(i=1;i<a;i++)\
+\
+   printf("%d",i);  \
+}
+#include<stdio.h>
+void main()
+{
+    int i=0;
+    loop(10);
+}
+
+
+O/P:
+123456789
