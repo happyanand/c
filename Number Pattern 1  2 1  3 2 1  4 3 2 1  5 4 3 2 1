@@ -52,3 +52,36 @@ O/P:
 3 3 3 
 4 4 4 4 
 5 5 5 5 5 
+
+
+
+
+
+(or)
+
+
+
+#include <stdio.h>
+int main() 
+{
+    int n,i,j;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        for(j=i;j>=1;j--)
+        {
+            printf("%d ",j);    
+        }
+    printf("\n");
+    }
+    return 0;
+}
+
+I/P:
+5
+O/P:
+1 1 1 1 1 
+2 2 2 2 2 
+3 3 3 3 3 
+4 4 4 4 4 
+5 5 5 5 5 
