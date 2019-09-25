@@ -1,0 +1,19 @@
+#include <stdio.h>
+union student
+{
+    int id;
+    int m1,m2;
+};
+int main() 
+{
+    union student s;
+    s.id=06;
+    s.m1=90;
+    s.m2=80;
+    printf("%d \n %d",s.id,(s.m1+s.m2));
+	return 0;
+}
+
+O/P:
+80 
+ 160
