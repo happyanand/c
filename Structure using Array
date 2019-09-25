@@ -19,7 +19,7 @@ void main()
     s[1].m2=30;
     for(i=0;i<2;i++)
     {
-    printf("%d \n %s \n %d",s[i].id,s[i].name,(s[i].m1+s[i].m2));
+    printf("%d \n %s \n %d \n",s[i].id,s[i].name,(s[i].m1+s[i].m2));
     }
 }
 
