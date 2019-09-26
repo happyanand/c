@@ -1,0 +1,38 @@
+#define value 50
+void main()
+{
+    #if value>5
+        printf("Five");
+    #elif value==1
+        printf("One");
+    #else
+        printf("NO");
+    #endif
+}
+
+O/P:
+Five
+
+
+
+void first();
+void second();
+#pragma startup first
+#pragma exit second
+void first()
+{
+    clrscr();
+    printf("First method");
+}
+void second()
+{
+    printf("second method");
+}
+void main()
+{
+    getch();
+}
+
+O/P:
+First method
+Second method
